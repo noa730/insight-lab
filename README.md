@@ -42,7 +42,7 @@ Add to your `~/.claude/settings.json`:
     "insight-lab": {
       "source": {
         "source": "github",
-        "repo": "noagao/insight-lab"
+        "repo": "noa730/insight-lab"
       }
     }
   },

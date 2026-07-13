@@ -1,5 +1,5 @@
 {
-  "name": "research-master",
+  "name": "insight-lab",
   "version": "1.0.0",
   "description": "AI-powered research & presentation agents. /research generates data-backed reports; /present creates interactive HTML presentations.",
   "skills": "./skills/",
@@ -7,7 +7,7 @@
     "name": "noagao",
     "url": "https://github.com/noagao"
   },
-  "repository": "https://github.com/noagao/research-master",
+  "repository": "https://github.com/noagao/insight-lab",
   "license": "MIT",
   "keywords": ["research", "report", "presentation", "slides", "analysis", "html"]
 }

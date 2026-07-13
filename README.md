@@ -1,4 +1,4 @@
-# Research Master
+# Insight Lab / 洞察实验室
 
 AI-powered research & presentation plugin for [Claude Code](https://claude.com/claude-code).
 
@@ -39,15 +39,15 @@ Add to your `~/.claude/settings.json`:
 ```json
 {
   "extraKnownMarketplaces": {
-    "research-master": {
+    "insight-lab": {
       "source": {
         "source": "github",
-        "repo": "noagao/research-master"
+        "repo": "noagao/insight-lab"
       }
     }
   },
   "enabledPlugins": {
-    "research-master@research-master": true
+    "insight-lab@insight-lab": true
   }
 }
 ```

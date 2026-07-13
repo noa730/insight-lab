@@ -1,0 +1,14 @@
+# Research & presentation output (user-specific, not part of the plugin)
+research-output/
+present-output/
+
+# Claude Code local config
+.claude/
+
+# OS files
+.DS_Store
+*/.DS_Store
+
+# Temporary files
+*.tmp
+*.bak

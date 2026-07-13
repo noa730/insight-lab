@@ -1,13 +1,22 @@
 {
   "name": "insight-lab",
-  "version": "1.0.0",
-  "description": "AI-powered research & presentation agents. /research generates data-backed reports; /present creates interactive HTML presentations.",
-  "skills": "./skills/",
-  "author": {
-    "name": "noagao",
-    "url": "https://github.com/noagao"
+  "description": "洞察实验室 — AI-powered research & presentation plugins for Claude Code",
+  "owner": {
+    "name": "noa730",
+    "url": "https://github.com/noa730"
   },
-  "repository": "https://github.com/noa730/insight-lab",
-  "license": "MIT",
-  "keywords": ["research", "report", "presentation", "slides", "analysis", "html"]
+  "plugins": [
+    {
+      "name": "research",
+      "description": "AI research agent — /research generates data-backed reports with 5 output types and 3 depth levels",
+      "author": { "name": "noa730" },
+      "source": { "source": "local", "path": "plugins/research" }
+    },
+    {
+      "name": "present",
+      "description": "AI presentation agent — /present creates interactive HTML presentations from research outputs or raw materials",
+      "author": { "name": "noa730" },
+      "source": { "source": "local", "path": "plugins/present" }
+    }
+  ]
 }

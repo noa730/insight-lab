@@ -1,0 +1,13 @@
+{
+  "name": "research",
+  "version": "1.0.0",
+  "description": "AI research agent — /research generates data-backed reports with 5 output types (research, feasibility, proposal, decision, plan) and 3 depth levels.",
+  "skills": "./skills/",
+  "author": {
+    "name": "noa730",
+    "url": "https://github.com/noa730"
+  },
+  "repository": "https://github.com/noa730/insight-lab",
+  "license": "MIT",
+  "keywords": ["research", "report", "analysis", "feasibility", "proposal"]
+}

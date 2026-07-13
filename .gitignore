@@ -1,9 +1,23 @@
-# Research & presentation output (user-specific, not part of the plugin)
+# Research & presentation output (user-specific)
 research-output/
 present-output/
 
 # Claude Code local config
 .claude/
+
+# Local dev files (not part of the plugin)
+.agents/
+.superpowers/
+agents/
+templates/
+docs/
+images/
+notepad.md
+skills-lock.json
+generate_ppt.py
+*.md
+!README.md
+!LICENSE
 
 # OS files
 .DS_Store

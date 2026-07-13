@@ -1,0 +1,13 @@
+{
+  "name": "present",
+  "version": "1.0.0",
+  "description": "AI presentation agent — /present creates interactive HTML presentations from research outputs or raw materials with 4-phase workflow.",
+  "skills": "./skills/",
+  "author": {
+    "name": "noa730",
+    "url": "https://github.com/noa730"
+  },
+  "repository": "https://github.com/noa730/insight-lab",
+  "license": "MIT",
+  "keywords": ["presentation", "slides", "html", "interactive", "charts"]
+}

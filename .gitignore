@@ -15,9 +15,8 @@ images/
 notepad.md
 skills-lock.json
 generate_ppt.py
-*.md
+/*.md
 !README.md
-!LICENSE
 
 # OS files
 .DS_Store

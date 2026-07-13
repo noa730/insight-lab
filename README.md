@@ -34,6 +34,16 @@ Create interactive HTML presentations from research outputs or raw materials.
 
 ## Install
 
+```bash
+claude plugin marketplace add noa730/insight-lab
+claude plugin install insight-lab
+```
+
+Then restart Claude Code.
+
+<details>
+<summary>Manual install (alternative)</summary>
+
 Add to your `~/.claude/settings.json`:
 
 ```json
@@ -51,8 +61,7 @@ Add to your `~/.claude/settings.json`:
   }
 }
 ```
-
-Then restart Claude Code.
+</details>
 
 ## Usage
 

@@ -1,22 +1,32 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "insight-lab",
   "description": "洞察实验室 — AI-powered research & presentation plugins for Claude Code",
   "owner": {
-    "name": "noa730",
-    "url": "https://github.com/noa730"
+    "name": "noa730"
   },
   "plugins": [
     {
       "name": "research",
       "description": "AI research agent — /research generates data-backed reports with 5 output types and 3 depth levels",
       "author": { "name": "noa730" },
-      "source": { "source": "local", "path": "plugins/research" }
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/noa730/insight-lab.git",
+        "path": "plugins/research",
+        "ref": "main"
+      }
     },
     {
       "name": "present",
       "description": "AI presentation agent — /present creates interactive HTML presentations from research outputs or raw materials",
       "author": { "name": "noa730" },
-      "source": { "source": "local", "path": "plugins/present" }
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/noa730/insight-lab.git",
+        "path": "plugins/present",
+        "ref": "main"
+      }
     }
   ]
 }

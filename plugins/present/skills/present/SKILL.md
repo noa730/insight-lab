@@ -1,6 +1,6 @@
 ---
 name: present
-description: Create interactive HTML presentations from research outputs or raw materials. Usage: /present "topic"
+description: "Create interactive HTML presentations from research outputs or raw materials. Usage: /present topic"
 ---
 
 # Present — Orchestrator

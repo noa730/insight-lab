@@ -1,6 +1,6 @@
 ---
 name: research
-description: Launch an industry research project. Produces a data-backed report with visualizations. Usage: /research "topic"
+description: "Launch an industry research project. Produces a data-backed report with visualizations. Usage: /research topic"
 ---
 
 # Research — Orchestrator

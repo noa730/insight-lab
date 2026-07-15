@@ -21,6 +21,13 @@ claude plugin install present    # only /present
 
 Then restart Claude Code.
 
+## Update
+
+```bash
+claude plugin update research
+claude plugin update present
+```
+
 <details>
 <summary>Manual install (alternative)</summary>
 
